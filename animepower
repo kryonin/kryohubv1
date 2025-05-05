@@ -782,7 +782,7 @@ function library:Introduction()
     xsx.Font = Enum.Font.Code
     xsx.Text = "powered by kryonin"
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
-    xsx.TextSize = 12.000
+    xsx.TextSize = 10.000
     xsx.TextTransparency = 1
     
     text.Name = "text"
@@ -794,7 +794,7 @@ function library:Introduction()
     text.Font = Enum.Font.Code
     text.Text = "Kryo"
     text.TextColor3 = Color3.fromRGB(124, 124, 124)
-    text.TextSize = 12.000
+    text.TextSize = 10.000
     text.TextTransparency = 1
     text.RichText = true
     
