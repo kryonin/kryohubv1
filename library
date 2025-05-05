@@ -694,7 +694,7 @@ function library:Introduction()
     local barLayout = Instance.new("UIListLayout")
     local xsxLogo = Instance.new("ImageLabel")
     local hashLogo = Instance.new("ImageLabel")
-    local kryo = Instance.new("TextLabel")
+    local xsx = Instance.new("TextLabel")
     local text = Instance.new("TextLabel")
     local pageLayout = Instance.new("UIListLayout")
     
@@ -774,16 +774,16 @@ function library:Introduction()
     hashLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
     hashLogo.ImageTransparency = 1
     
-    kryo.Name = "kryo"
-    kryo.Parent = background
-    kryo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    kryo.BackgroundTransparency = 1.000
-    kryo.Size = UDim2.new(0, 80, 0, 21)
-    kryo.Font = Enum.Font.Code
-    kryo.Text = "powered by kryo"
-    kryo.TextColor3 = Color3.fromRGB(124, 124, 124)
-    kryo.TextSize = 10.000
-    kryo.TextTransparency = 1
+    xsx.Name = "kryo"
+    xsx.Parent = background
+    xsx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    xsx.BackgroundTransparency = 1.000
+    xsx.Size = UDim2.new(0, 80, 0, 21)
+    xsx.Font = Enum.Font.Code
+    xsx.Text = "powered by kryo"
+    xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
+    xsx.TextSize = 10.000
+    xsx.TextTransparency = 1
     
     
     pageLayout.Name = "pageLayout"
