@@ -709,7 +709,7 @@ function library:init()
         Parent = screenGui,
         Visible = true,
         Size = UDim2.new(1,0,1,0),
-        ZIndex = 9999999999,
+        ZIndex = 1,
         Transparency = 1;
         Active = false
     })
