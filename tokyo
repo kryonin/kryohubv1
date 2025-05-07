@@ -813,7 +813,6 @@ function library:init()
     
     function self:SetOpen(bool)
         self.open = bool;
-        screenGui.Enabled = bool;
 
         if bool and library.flags.disablemenumovement then
             actionservice:BindAction(
